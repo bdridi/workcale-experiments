@@ -1,0 +1,577 @@
+AWSTemplateFormatVersion: 2010-09-09
+Metadata:
+  Generator: bdridi
+  'AWS::CloudFormation::Designer':
+    746dfa1a-33dd-4c55-8722-35d7acfd74b2:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 770
+        'y': 220
+      z: 1
+      embeds: []
+    6df1680b-aa51-468d-b51a-208357a01804:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 770
+        'y': 370
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - 746dfa1a-33dd-4c55-8722-35d7acfd74b2
+    d2fa7694-e3d6-4657-85d6-9ae6f957e029:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 970
+        'y': 220
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - 746dfa1a-33dd-4c55-8722-35d7acfd74b2
+    1db84ea4-3d22-41b6-88a9-0a3017d0de08:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 770
+        'y': 100
+      z: 1
+      embeds: []
+    ab942e5d-b1bc-4f4a-8707-46ea23dabd5e:
+      size:
+        width: 510
+        height: 510
+      position:
+        x: 40
+        'y': 190
+      z: 1
+      embeds:
+        - ef9c03fc-745f-4d72-a260-f55f00b8c270
+        - 10e231da-65df-4320-b44f-67e597909def
+        - b1fbb01c-5bfd-4987-a3ef-b811711a20a6
+        - fa4f0205-494d-43d9-8da8-0b7e2c10a906
+    ef9c03fc-745f-4d72-a260-f55f00b8c270:
+      size:
+        width: 330
+        height: 240
+      position:
+        x: 120
+        'y': 260
+      z: 2
+      parent: ab942e5d-b1bc-4f4a-8707-46ea23dabd5e
+      embeds:
+        - e92f7d23-a1b1-4ee8-99fe-a7e3393c884e
+      dependson:
+        - ab942e5d-b1bc-4f4a-8707-46ea23dabd5e
+    10e231da-65df-4320-b44f-67e597909def:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 80
+        'y': 530
+      z: 2
+      parent: ab942e5d-b1bc-4f4a-8707-46ea23dabd5e
+      embeds: []
+      dependson:
+        - ab942e5d-b1bc-4f4a-8707-46ea23dabd5e
+    b1fbb01c-5bfd-4987-a3ef-b811711a20a6:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 210
+        'y': 570
+      z: 2
+      parent: ab942e5d-b1bc-4f4a-8707-46ea23dabd5e
+      embeds: []
+      isassociatedwith:
+        - 10e231da-65df-4320-b44f-67e597909def
+      iscontainedinside:
+        - ab942e5d-b1bc-4f4a-8707-46ea23dabd5e
+        - ab942e5d-b1bc-4f4a-8707-46ea23dabd5e
+        - ab942e5d-b1bc-4f4a-8707-46ea23dabd5e
+        - ab942e5d-b1bc-4f4a-8707-46ea23dabd5e
+        - ab942e5d-b1bc-4f4a-8707-46ea23dabd5e
+        - ab942e5d-b1bc-4f4a-8707-46ea23dabd5e
+    fa4f0205-494d-43d9-8da8-0b7e2c10a906:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 360
+        'y': 550
+      z: 2
+      parent: ab942e5d-b1bc-4f4a-8707-46ea23dabd5e
+      embeds: []
+    e92f7d23-a1b1-4ee8-99fe-a7e3393c884e:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 270
+        'y': 320
+      z: 3
+      parent: ef9c03fc-745f-4d72-a260-f55f00b8c270
+      embeds: []
+      dependson:
+        - ef9c03fc-745f-4d72-a260-f55f00b8c270
+        - ab942e5d-b1bc-4f4a-8707-46ea23dabd5e
+    cb67178a-0c9c-4b2f-9422-9ca4a2a28e96:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 90
+        'y': 620
+      z: 1
+      embeds: []
+    4e8421a6-d7f6-4da5-a473-7fe7fb65d28f:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 100
+        'y': 730
+      z: 1
+      embeds: []
+    b3d0098b-5c92-4f4c-b56e-cb44b2f20f6f:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 100
+        'y': 850
+      z: 1
+      embeds: []
+    19ac5fe3-92ab-433c-8d4b-a35b8251a644:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 450
+        'y': 850
+      z: 1
+      embeds: []
+      dependson:
+        - b3d0098b-5c92-4f4c-b56e-cb44b2f20f6f
+    9bf063b3-b5ff-4baa-8d2d-52af4f33931b:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 440
+        'y': 620
+      z: 1
+      embeds: []
+      dependson:
+        - cb67178a-0c9c-4b2f-9422-9ca4a2a28e96
+        - 19ac5fe3-92ab-433c-8d4b-a35b8251a644
+        - a259e57a-f63f-46a0-a1e2-6b177c832702
+    a259e57a-f63f-46a0-a1e2-6b177c832702:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 320
+        'y': 730
+      z: 1
+      embeds: []
+      dependson:
+        - b3d0098b-5c92-4f4c-b56e-cb44b2f20f6f
+        - 4e8421a6-d7f6-4da5-a473-7fe7fb65d28f
+Description: AWS Stack for Navity mission of SPACITY Agency
+Parameters:
+  paramAgencyName:
+    Type: String
+    Description: Agency name
+  paramMissionName:
+    Type: String
+    Description: Mission name 
+Resources:
+  RoleLambdaNavityExploration:
+    Type: 'AWS::IAM::Role'
+    Properties:
+      Path: /service-role/
+      RoleName: role-navity-lambda-exploration
+      AssumeRolePolicyDocument: >-
+        {"Version":"2012-10-17","Statement":[{"Effect":"Allow","Principal":{"Service":"lambda.amazonaws.com"},"Action":"sts:AssumeRole"}]}
+      MaxSessionDuration: 3600
+      ManagedPolicyArns:
+        - !Sub >-
+          arn:aws:iam::${AWS::AccountId}:policy/service-role/AWSLambdaBasicExecutionRole-e20222e5-9525-4f87-9f89-65363a65e743
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: b3d0098b-5c92-4f4c-b56e-cb44b2f20f6f
+  RoleLambdaNavityCommunication:
+    Type: 'AWS::IAM::Role'
+    Properties:
+      Path: /service-role/
+      RoleName: role-navity-lambda-communication
+      AssumeRolePolicyDocument: >-
+        {"Version":"2012-10-17","Statement":[{"Effect":"Allow","Principal":{"Service":"lambda.amazonaws.com"},"Action":"sts:AssumeRole"}]}
+      MaxSessionDuration: 3600
+      ManagedPolicyArns:
+        - !Sub >-
+          arn:aws:iam::${AWS::AccountId}:policy/service-role/AWSLambdaBasicExecutionRole-e20222e5-9525-4f87-9f89-65363a65e743
+        - 'arn:aws:iam::aws:policy/AmazonS3FullAccess'
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 4e8421a6-d7f6-4da5-a473-7fe7fb65d28f
+  LambdaNavityCommunication:
+    Type: 'AWS::Lambda::Function'
+    Properties:
+      Description: ''
+      Code:
+        ZipFile: |
+          import json
+          import boto3
+          import datetime
+            
+          def handler(event, context):
+              print(event)
+              spacecraft = event['Payload']['Input']['spacecraft']
+              s3 = boto3.client('s3')
+              # current date and time
+              now = datetime.datetime.now()
+              timestamp = datetime.datetime.timestamp(now)
+              json_object = event
+              s3.put_object(
+              Body=str(json.dumps(json_object)),
+              Bucket="spacity-agency",
+              Key="missions/navity/"+ spacecraft + "/"+ str(timestamp) +".json"
+              )
+              return {
+                'statusCode': 200,
+                'body': json.dumps('Data sent to earth!')
+              }
+              
+      FunctionName: navity-lambda-communication
+      Runtime: python3.8
+      Handler: index.handler
+      MemorySize: 128
+      Role: !Sub >-
+        arn:aws:iam::${AWS::AccountId}:role/service-role/role-navity-lambda-communication
+      Timeout: 3
+      TracingConfig:
+        Mode: PassThrough
+    DependsOn:
+      - RoleLambdaNavityCommunication
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: a259e57a-f63f-46a0-a1e2-6b177c832702
+  LambdaNavityExploration:
+    Type: 'AWS::Lambda::Function'
+    Properties:
+      Description: ''
+      Code:
+        ZipFile: |
+          import json
+          import http.client
+
+          def handler(event, context):
+              planet_name = event['planet_name']
+              print("Exploring planet "+ planet_name)
+              print("Recieving data from lander ")
+              conn = http.client.HTTPSConnection("api.le-systeme-solaire.net")
+              conn.request("GET", "/rest.php/bodies/"+ planet_name)
+              res = conn.getresponse().read()
+              planet_data = json.loads(res)
+              print(planet_data)
+              print(planet_data["id"])
+              return {
+                  'statusCode': 200,
+                  'body': planet_data
+              }
+      FunctionName: navity-lambda-exploration
+      Runtime: python3.8
+      Handler: index.handler
+      MemorySize: 128
+      Role: !Sub >-
+        arn:aws:iam::${AWS::AccountId}:role/service-role/role-navity-lambda-exploration
+      Timeout: 3
+      TracingConfig:
+        Mode: PassThrough
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 19ac5fe3-92ab-433c-8d4b-a35b8251a644
+    DependsOn:
+      - RoleLambdaNavityExploration
+  RoleStepFunctionNavity:
+    Type: 'AWS::IAM::Role'
+    Properties:
+      Path: /service-role/
+      RoleName: spacity-navity-mission-role
+      AssumeRolePolicyDocument: >-
+        {"Version":"2012-10-17","Statement":[{"Effect":"Allow","Principal":{"Service":"states.amazonaws.com"},"Action":"sts:AssumeRole"}]}
+      MaxSessionDuration: 3600
+      ManagedPolicyArns:
+        - 'arn:aws:iam::aws:policy/AWSXrayFullAccess'
+        - 'arn:aws:iam::aws:policy/AWSLambda_FullAccess'
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: cb67178a-0c9c-4b2f-9422-9ca4a2a28e96
+  StepFunctionStateMachineNavity:
+    Type: 'AWS::StepFunctions::StateMachine'
+    Properties:
+      StateMachineName: spacity-navity-mission
+      DefinitionString: !Sub |
+        {
+          "Comment": "Spacity - Navity mission for solar system exploration",
+          "StartAt": "Orbiting",
+          "States": {
+            "Orbiting": {
+              "Comment": "Space craftship perform is orbiting around earth to reach the gravitational field of mars",
+              "Type": "Pass",
+              "Next": "Mars"
+            },
+            "Mars": {
+              "Type": "Task",
+              "Resource": "arn:aws:lambda:eu-west-1:259012809890:function:${LambdaNavityExploration}",
+              "Parameters": {
+                "FunctionName": "${LambdaNavityExploration}:$LATEST",
+                "planet_name": "mars",
+                "Payload": {
+                  "Input.$": "$"
+                }
+              },
+              "ResultPath": "$.mars",
+              "Next": "Jupiter"
+            },
+            "Jupiter": {
+              "Type": "Task",
+              "Resource": "arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:function:${LambdaNavityExploration}",
+              "Parameters": {
+                "FunctionName": "${LambdaNavityExploration}",
+                "planet_name": "jupiter",
+                "Payload": {
+                  "Input.$": "$"
+                }
+              },
+              "Next": "Saturne",
+              "ResultPath": "$.jupiter"
+            },
+            "Saturne": {
+              "Type": "Task",
+              "Resource": "arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:function:${LambdaNavityExploration}",
+              "Parameters": {
+                "FunctionName": "${LambdaNavityExploration}:$LATEST",
+                "planet_name": "saturne",
+                "Payload": {
+                  "Input.$": "$"
+                }
+              },
+              "ResultPath": "$.saturne",
+              "Next": "ChoicePathVoyager"
+            },
+            "ChoicePathVoyager": {
+              "Type": "Choice",
+              "Choices": [
+                {
+                  "Variable": "$.spacecraft",
+                  "StringEquals": "voyager1",
+                  "Next": "Neptune"
+                },
+                {
+                  "Variable": "$.spacecraft",
+                  "StringEquals": "voyager2",
+                  "Next": "SendDataToEarth"
+                }
+              ],
+              "Default": "SendDataToEarth"
+            },
+            "Neptune": {
+              "Type": "Task",
+              "Resource": "arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:function:${LambdaNavityExploration}",
+              "Parameters": {
+                "FunctionName": "${LambdaNavityExploration}:$LATEST",
+                "planet_name": "saturne",
+                "Payload": {
+                  "Input.$": "$"
+                }
+              },
+              "ResultPath": "$.neptune",
+              "Next": "SendDataToEarth"
+            },
+            "SendDataToEarth": {
+              "Type": "Task",
+              "Resource": "arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:function:${LambdaNavityCommunication}",
+              "Parameters": {
+                "FunctionName": "${LambdaNavityCommunication}:$LATEST",
+                "Payload": {
+                  "Input.$": "$"
+                }
+              },
+              "Next": "ReturnToEarth"
+            },
+            "ReturnToEarth": {
+              "Comment": "Returning home !",
+              "Type": "Pass",
+              "End": true
+            }
+          }
+        }
+      RoleArn: !Sub >-
+        arn:aws:iam::${AWS::AccountId}:role/service-role/spacity-navity-mission-role
+      StateMachineType: STANDARD
+      LoggingConfiguration:
+        IncludeExecutionData: false
+        Level: 'OFF'
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 9bf063b3-b5ff-4baa-8d2d-52af4f33931b
+    DependsOn:
+      - RoleStepFunctionNavity
+      - LambdaNavityExploration
+      - LambdaNavityCommunication
+  RoleApiGatewaySpacity:
+    Type: 'AWS::IAM::Role'
+    Properties:
+      Path: /
+      RoleName: RoleApiGatewaySpacity
+      AssumeRolePolicyDocument: >-
+        {"Version":"2012-10-17","Statement":[{"Sid":"","Effect":"Allow","Principal":{"Service":"apigateway.amazonaws.com"},"Action":"sts:AssumeRole"}]}
+      MaxSessionDuration: 3600
+      ManagedPolicyArns:
+        - >-
+          arn:aws:iam::aws:policy/service-role/AmazonAPIGatewayPushToCloudWatchLogs
+        - 'arn:aws:iam::aws:policy/AWSStepFunctionsFullAccess'
+      Description: RoleApiGatewaySpacity
+      Tags:
+        - Key: project
+          Value: Spacity
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: fa4f0205-494d-43d9-8da8-0b7e2c10a906
+  
+  ApiGatewayRestApiSpacity:
+    Type: 'AWS::ApiGateway::RestApi'
+    Properties:
+      Name: spacity
+      Description: spacity
+      ApiKeySourceType: HEADER
+      EndpointConfiguration:
+        Types:
+          - REGIONAL
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: ab942e5d-b1bc-4f4a-8707-46ea23dabd5e
+
+
+  ApiGatewayStageSpacity:
+    Type: 'AWS::ApiGateway::Stage'
+    Properties:
+      StageName: test
+      DeploymentId: !Ref ApiGatewayDeploymentSpacity
+      RestApiId: !Ref ApiGatewayRestApiSpacity
+      Description: test
+      CacheClusterEnabled: false
+      TracingEnabled: false
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: b1fbb01c-5bfd-4987-a3ef-b811711a20a6
+
+  ApiGatewayDeploymentSpacity:
+    Type: 'AWS::ApiGateway::Deployment'
+    Properties:
+      RestApiId: !Ref ApiGatewayRestApiSpacity
+    DependsOn:
+      - ApiGatewayRestApiSpacity
+      - ApiGatewayMethodMissionPOSTSpacity
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 10e231da-65df-4320-b44f-67e597909def
+
+  ApiGatewayResourceMissionSpacity:
+    Type: 'AWS::ApiGateway::Resource'
+    Properties:
+      RestApiId: !Ref ApiGatewayRestApiSpacity
+      PathPart: missions
+      ParentId: !GetAtt ApiGatewayRestApiSpacity.RootResourceId
+    DependsOn:
+      - ApiGatewayRestApiSpacity
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: ef9c03fc-745f-4d72-a260-f55f00b8c270
+  
+  ApiGatewayMethodMissionPOSTSpacity:
+    Type: 'AWS::ApiGateway::Method'
+    Properties:
+      RestApiId: !Ref ApiGatewayRestApiSpacity
+      ResourceId: !Ref ApiGatewayResourceMissionSpacity
+      HttpMethod: POST
+      AuthorizationType: NONE
+      ApiKeyRequired: false
+      RequestParameters: {}
+      MethodResponses:
+        - ResponseModels:
+            application/json: Empty
+          StatusCode: '200'
+      Integration:
+        CacheNamespace: !Ref ApiGatewayResourceMissionSpacity
+        Credentials: !GetAtt RoleApiGatewaySpacity.Arn
+        IntegrationHttpMethod: POST
+        IntegrationResponses:
+          - ResponseTemplates: {}
+            StatusCode: '200'
+        PassthroughBehavior: WHEN_NO_MATCH
+        TimeoutInMillis: 29000
+        Type: AWS
+        Uri: !Sub 'arn:aws:apigateway:${AWS::Region}:states:action/StartExecution'
+    DependsOn:
+      - ApiGatewayRestApiSpacity
+      - ApiGatewayResourceMissionSpacity
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: e92f7d23-a1b1-4ee8-99fe-a7e3393c884e
+  S3BucketSpacity:
+    Type: 'AWS::S3::Bucket'
+    Properties:
+      BucketName: spacity-agency
+      NotificationConfiguration:
+        TopicConfigurations:
+          - Event: 's3:ObjectCreated:*'
+            Filter:
+              S3Key:
+                Rules:
+                  - Name: Prefix
+                    Value: ''
+                  - Name: Suffix
+                    Value: ''
+            Topic: !Ref SNSTopicSpacity
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 1db84ea4-3d22-41b6-88a9-0a3017d0de08
+  SNSTopicSpacity:
+    Type: 'AWS::SNS::Topic'
+    Properties:
+      DisplayName: ''
+      TopicName: spacity-topic
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 746dfa1a-33dd-4c55-8722-35d7acfd74b2
+  SNSTopicSpacityPolicy:
+    Type: 'AWS::SNS::TopicPolicy'
+    Properties:
+      PolicyDocument: !Sub >-
+        {"Version":"2008-10-17","Id":"__default_policy_ID","Statement":[{"Sid":"__default_statement_ID","Effect":"Allow","Principal":{"AWS":"*"},"Action":["SNS:Publish","SNS:RemovePermission","SNS:SetTopicAttributes","SNS:DeleteTopic","SNS:ListSubscriptionsByTopic","SNS:GetTopicAttributes","SNS:Receive","SNS:AddPermission","SNS:Subscribe"],"Resource":"${SNSTopicSpacity}","Condition":{"StringEquals":{"AWS:SourceOwner":"${AWS::AccountId}"}}},{"Sid":"__console_pub_0","Effect":"Allow","Principal":{"AWS":"*"},"Action":"SNS:Publish","Resource":"${SNSTopicSpacity}"},{"Sid":"__console_sub_0","Effect":"Allow","Principal":{"AWS":"*"},"Action":["SNS:Subscribe","SNS:Receive"],"Resource":"${SNSTopicSpacity}"}]}
+      Topics:
+        - !Ref SNSTopicSpacity
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: d2fa7694-e3d6-4657-85d6-9ae6f957e029
+  SNSSubscriptionSpacity:
+    Type: 'AWS::SNS::Subscription'
+    Properties:
+      TopicArn: !Ref SNSTopicSpacity
+      Endpoint: bdridi@publicissapient.fr
+      Protocol: email
+      Region: !Ref 'AWS::Region'
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 6df1680b-aa51-468d-b51a-208357a01804
