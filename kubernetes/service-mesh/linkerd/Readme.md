@@ -154,7 +154,7 @@ NAME   STATUS        WEIGHT   LASTTRANSITIONTIME
 wiki   Progressing   0        2021-03-02T11:43:22Z
 ```
 
-#### Generate traffic 
+#### Generate traffic
 
 To visualise the traffic split we need to generate a traffic. Run the script `load-geerator-wiki.sh` that performs 100 times curl requests on GET articles api. This will call our wiki service.
 
