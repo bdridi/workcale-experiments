@@ -1,0 +1,53 @@
+# Redis Deployment
+---
+  apiVersion: apps/v1
+  kind: Deployment
+  metadata:
+      name: redis
+      labels:
+          app: redis
+  spec:
+      replicas: 1
+      selector:
+        matchLabels:
+          app: redis
+      template:
+        metadata:
+            labels:
+              app: redis
+        spec:
+          containers:
+            - name: redis
+              image: redis:alpine
+              ports:
+                - containerPort: 6379
+  
+# Redis data base service 
+---
+apiVersion: v1
+kind: Service
+metadata:
+    name: redis
+spec:
+  selector:
+    app: redis
+  ports:
+    - name: http
+      protocol: TCP
+      port: 6379
+      targetPort: 6379
+
+---
+# RedisInsight 
+apiVersion: v1
+kind: Pod
+metadata:
+  name: redisinsight
+  labels:
+    name: redisinsight
+spec:
+  containers:
+  - name: redisinsight
+    image: redislabs/redisinsight:latest
+    ports:
+    - containerPort: 8001
