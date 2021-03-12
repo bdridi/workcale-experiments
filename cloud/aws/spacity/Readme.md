@@ -15,13 +15,17 @@ To implements the `Navity` program, we will be using the following aws services
 - S3 Bucket `spacity-agency` in which we will recieve data from spacecrafts.
 - Lambda Function `exploration` to collect data of a specific planet.
 - Lambda Function `communication` to send data to earth ( send resulted json to the s3 bucket )
-- StepFunction state machine `navity` to orchestrate the mission. It acceptes the spacecraft type as input (  `{"spacecraft": "voyager1"}`) 
+- StepFunction state machine `navity` to orchestrate the mission. It acceptes the spacecraft type as input (  `{"spacecraft": "voyager1"}`)
 - API Gateway to launch trigger the step function and launch the spacecraft. 
 - SNS notification service with a topic `spacity` and an email subscription
   - Once a file is uploaded to the s3 bucket, an event is created in the topic and an email is sent to mission's responsible. 
 - IAM roles for services permissions
 
-### Orchestration 
+### Architecture
+
+![Screenshot](spacity.png)
+
+### State machine 
 
 ![Screenshot](statemachine.png)
 
