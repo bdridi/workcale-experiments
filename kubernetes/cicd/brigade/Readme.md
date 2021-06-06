@@ -154,7 +154,7 @@ consult all your created brigade projets and jobs executions.
 In this demo we covered the non VCS brigade project locally that fit with our main purpose which is a first hands with Brigde.
 Please Note that Brigade offers also the possiblity to create a VCS project and trigger scripts on the kubernetes cluster based on github commits for example. This feature is more intresting for real use cases in production such as running tests, ci pipelines ...
 
-- For further informations please visit the [Brigade Official Websit](https://docs.brigade.sh/intro/tutorial03/)
+- For further informations please visit the [Brigade Official Website](https://docs.brigade.sh/intro/tutorial03/)
 
 ## Versions
 
