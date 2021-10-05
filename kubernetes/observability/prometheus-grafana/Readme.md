@@ -20,7 +20,7 @@ Microlearning is demo project for training purpose. The idea is to display a lis
   - the database to store categories
 - [Microlearning web application](https://github.com/bdridi/microlearning-webapp)
 - [Microlearning-wiki service](https://github.com/bdridi/microlearning-wiki)
-  - search on wikipedia a random pages with specific category. 
+  - search on wikipedia a random pages with specific category.
 
 ### Architecture
 
@@ -30,8 +30,8 @@ graph LR
     public-api --> id1[(redis categories)]
     public-api --> wiki-service
     wiki-service --> id2((wikipedia))
-    
 ```
+
 ## Installation
 
 - Run `zsh kind.sh`  from the root folder
